@@ -1,0 +1,38 @@
+#+TITLE: My iPhone stuff
+* Inbox
+** TODO [#A] Document unicorn sighting                               :research:truth:
+- [X] Talk to [[https://www.royalmint.com/discover/uk-coins/queensbeasts/qb-unicorn/][eyewitness]]
+- [ ] /Flesh/ _out_ ~evidence~ =table=
+  | last seen | location       | country  |
+  |-----------+----------------+----------|
+  |      2017 | The Royal Mint | Scotland |
+- [ ] Photograph evidence
+- [X] Gather ASCII evidence
+#+begin_example
+                   ,%%%,
+                 ,%%%` %==--
+                ,%%`( '|
+               ,%%@ /\_/
+     ,%.-"""--%%% "@@__
+    %%/             |__`\
+   .%'\     |   \   /  //
+   ,%' >   .'----\ |  [/
+      < <<`       ||
+       `\\\       ||
+         )\\      )\
+ ^^^jgs^^"""^^^^^^""^^^^^^^^^^^
+#+end_example
+* Plain Org
+** TODO Push latest build
+* Org mode
+** TODO Check out agenda
+* Emacs
+** TODO Check out projectile
+* Linux
+** TODO Check out [[https://github.com/ch11ng/exwm][Emacs X Window Manager]]
+* macOS
+** TODO Install Monterey
+* Personal finance
+** TODO Install ledger
+* Home
+** TODO Buy bulbs
