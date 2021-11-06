@@ -2,12 +2,15 @@
 * Inbox
 ** TODO [#A] Document unicorn sighting                               :research:truth:
 - [X] Talk to [[https://www.royalmint.com/discover/uk-coins/queensbeasts/qb-unicorn/][eyewitness]]
+
 - [ ] /Flesh/ _out_ ~evidence~ =table=
+
   | last seen | location       | country  |
   |-----------+----------------+----------|
   |      2017 | The Royal Mint | Scotland |
-- [ ] Photograph evidence
+
 - [X] Gather ASCII evidence
+
 #+begin_example
                    ,%%%,
                  ,%%%` %==--
@@ -22,6 +25,10 @@
          )\\      )\
  ^^^jgs^^"""^^^^^^""^^^^^^^^^^^
 #+end_example
+
+- [ ] Photograph evidence
+  [[file:unicorn.png]]
+
 * Plain Org
 ** TODO Push latest build
 * Org mode
