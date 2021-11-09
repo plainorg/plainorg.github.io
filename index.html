@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <script>
+    function onVideoClicked(video) {
+        video.paused ? video.play() : video.pause();
+        var playButton = document.getElementById("play-btn");
+        if (playButton) {
+            playButton.hidden = !video.paused
+        }
+    }
+
+    const setVh = () => {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    window.addEventListener('load', setVh);
+    window.addEventListener('resize', setVh);
+  </script>
   <head>
     <meta charset="utf-8">
     <title>Plain Org for iOS</title>
@@ -12,165 +29,192 @@
     <div style="display: flex; justify-content: center; align-items: center;">
       <img src="favicon.png" style="width: 40px; padding-right: 5px;"/><h1 style="display: inline;">Plain Org</h1>
     </div>
-    <img src="screenshot.jpg" style="width: 100%;"/>
-    <div style="text-align: center; align-items: center;">
+    <div class="promo-video-container">
+      <div class="videos">
+        <div class="video-wrap">
+          <video class="promo-video"
+                 onClick="onVideoClicked(this)"
+                 height="auto"
+                 poster="demo.png"
+                 loop
+                 muted
+                 playsinline>
+            <source src="demo.m4v" type="video/mp4"/>
+          </video>
+          <div id="play-btn" class="play-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <circle
+                style="fill:#848285;fill-opacity:0.90;fill-rule:evenodd;stroke-width:0"
+                id="path40"
+                cx="150"
+                cy="150"
+                r="150" />
+              <polygon
+                points="218.79,155.84 119.22,94.34 119.22,217.34 "
+                id="polygon30"
+                style="fill:#ffffff" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; align-items: center;">
+        <br/>
+        <a href="https://apps.apple.com/app/id1578965002">
+          <img src="download-on-app-store.png"
+               alt="download-on-app-store.png"
+               style="max-width: 13ch;"/>
+        </a>
+        <br/>
+        <br/>
+        <span style="font-weight: bold;">Bring org to your iPhone</span>
+        <br/>
+        <span style="font-size: small;">built with 💙 by <a href="http://xenodium.com">me</a> - powered by <a href="https://orgmode.org">org 🦄</a></span>
+      </div>
+      <h2 id="why">Why?</h2>
+      <a href="https://orgmode.org">Org mode</a> on <a href="https://www.gnu.org/software/emacs">Emacs</a> is wonderful. I'm a big fan and use it regularly on my laptop. As an iPhone user, I wanted <span style="font-weight: bold;">quick access to org tasks while on the go</span>... so <a href="https://xenodium.com/org-habits-on-ios-check-tasks-youre-next">I built</a> <span style="font-weight:bold;">Plain Org</span> for iOS.
       <br/>
-      <a href="https://apps.apple.com/app/id1578965002">
-        <img src="download-on-app-store.png"
-             alt="download-on-app-store.png"
-             style="max-width: 13ch;"/>
-      </a>
-      <br/>
-      <br/>
-      <span style="font-weight: bold;">Access org tasks from your iPhone</span>
-      <br/>
-      <span style="font-size: small;">built with 💙 by <a href="http://xenodium.com">me</a> - powered by <a href="https://orgmode.org">org 🦄</a></span>
-    </div>
-    <h2 id="why">Why?</h2>
-    <a href="https://orgmode.org">Org mode</a> on <a href="https://www.gnu.org/software/emacs">Emacs</a> is wonderful. I'm a big fan and use it regularly on my laptop. As an iPhone user, I wanted <span style="font-weight: bold;">quick access to org tasks while on the go</span>... so <a href="https://xenodium.com/org-habits-on-ios-check-tasks-youre-next">I built</a> <span style="font-weight:bold;">Plain Org</span> for iOS.
-    <br/>
-    <h2>Features</h2>
-    <ul>
-      <li>View and edit your org mode tasks while on the go.</li>
-      <li> Beautifully rendered org markup.</li>
-      <li> Sync your org files using your favorite cloud provider.</li>
-      <li> Create new files.</li>
-      <li> Outline-style editing with toolbar</li>
+      <h2>Features</h2>
       <ul>
-        <li>Keywords</li>
-        <li>Indent</li>
-        <li>Priority</li>
-        <li>Tags</li>
-        <li>Formatting: bold, italic, underline, strikethrough, verbatim, and code.</li>
+        <li>View and edit your org mode tasks while on the go.</li>
+        <li> Beautifully rendered org markup.</li>
+        <li> Sync your org files using your favorite cloud provider.</li>
+        <li> Create new files.</li>
+        <li> Outline-style editing with toolbar</li>
+        <ul>
+          <li>Keywords</li>
+          <li>Indent</li>
+          <li>Priority</li>
+          <li>Tags</li>
+          <li>Formatting: bold, italic, underline, strikethrough, verbatim, and code.</li>
+        </ul>
+        <li> Add links from Safari via share extension.</li>
+        <li> Add new tasks via Spotlight.</li>
+        <li> Reorder headings via drag/drop.</li>
+        <li> Checkboxes</li>
+        <ul>
+          <li>Interactive toggling.</li>
+          <li>Quickly reset multiple checkboxes.</li>
+        </ul>
+        <li> Follow local links.</li>
+        <li> Show inline images.</li>
+        <li> File-local keywords and visibility.</li>
+        <li> Filter open/closed tasks.</li>
+        <li> Show/hide stars.</li>
+        <li> Edit raw text.</li>
+        <li> Light/dark mode.</li>
       </ul>
-      <li> Add links from Safari via share extension.</li>
-      <li> Add new tasks via Spotlight.</li>
-      <li> Reorder headings via drag/drop.</li>
-      <li> Checkboxes</li>
-      <ul>
-        <li>Interactive toggling.</li>
-        <li>Quickly reset multiple checkboxes.</li>
-      </ul>
-      <li> Follow local links.</li>
-      <li> Show inline images.</li>
-      <li> File-local keywords and visibility.</li>
-      <li> Filter open/closed tasks.</li>
-      <li> Show/hide stars.</li>
-      <li> Edit raw text.</li>
-      <li> Light/dark mode.</li>
-    </ul>
-    <h2 id="why">What is org?</h2>
-    <a href="https://orgmode.org">Org</a> is a powerful plain text markup, somewhat similar to markdown. It has a rich <a href="https://orgmode.org/features.html">feature set</a>. Being pure text, you can view and edit using your favourite text editor (Emacs, Vim, VSCode, etc.) while you're at your computer.
-    <br/>
-    <br/>
-    Here's a sample snippet:
-    <br/>
-    <br/>
-    <div style="font-family: monospace, monospace; max-width: 90%; font-size: x-small;">
-      #+TITLE: My iPhone stuff
+      <h2 id="why">What is org?</h2>
+      <a href="https://orgmode.org">Org</a> is a powerful plain text markup, somewhat similar to markdown. It has a rich <a href="https://orgmode.org/features.html">feature set</a>. Being pure text, you can view and edit using your favourite text editor (Emacs, Vim, VSCode, etc.) while you're at your computer.
       <br/>
       <br/>
-      * Inbox
-      <br/>
-      ** DONE [#A] Publish Plain Org to App Store                        :plainorg:
-      <br/>
-      ** NEXT [#B] Make [[https://xenodium.com/oatmeal-cookie-recipe][oatmeal cookies]] :cooking:
+      Here's a sample snippet:
       <br/>
       <br/>
-      [[file:oats.jpg]]
+      <div style="font-family: monospace, monospace; max-width: 90%; font-size: x-small;">
+        #+TITLE: My iPhone stuff
+        <br/>
+        <br/>
+        * Inbox
+        <br/>
+        ** DONE [#A] Publish Plain Org to App Store                        :plainorg:
+        <br/>
+        ** NEXT [#B] Make [[https://xenodium.com/oatmeal-cookie-recipe][oatmeal cookies]] :cooking:
+        <br/>
+        <br/>
+        [[file:oats.jpg]]
+        <br/>
+        <br/>
+        ** TODO [#A] Document unicorn sighting                       :research:truth:
+        <br/>
+        - [X] Talk to eyewitness.
+        <br/>
+        - [X] /Flesh/ _out_ ~evidence~ =table=
+        <br/>
+        <br/>
+        |-----------+----------------+----------|
+        <br/>
+        | last seen | location &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | country &nbsp;|
+        <br/>
+        |-----------+----------------+----------|
+        <br/>
+        | &nbsp;&nbsp;&nbsp;&nbsp; 2017 | The Royal Mint | Scotland |
+        <br/>
+        | &nbsp;&nbsp;&nbsp;&nbsp; 1991 | Harz Mountains | Germany &nbsp;|
+        <br/>
+        |-----------+----------------+----------|
+        <br/>
+      </div>
+      <h2>Syncing your data</h2>
+      Plain Org syncs data using iOS <a href="https://developer.apple.com/documentation/fileprovider">file-providing extensions</a>. If your favorite cloud service offers an iOS extension, Plain Org should be able to open, edit, and sync your data.
       <br/>
       <br/>
-      ** TODO [#A] Document unicorn sighting                       :research:truth:
-      <br/>
-      - [X] Talk to eyewitness.
-      <br/>
-      - [X] /Flesh/ _out_ ~evidence~ =table=
-      <br/>
-      <br/>
-      |-----------+----------------+----------|
-      <br/>
-      | last seen | location &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | country &nbsp;|
-      <br/>
-      |-----------+----------------+----------|
-      <br/>
-      | &nbsp;&nbsp;&nbsp;&nbsp; 2017 | The Royal Mint | Scotland |
-      <br/>
-      | &nbsp;&nbsp;&nbsp;&nbsp; 1991 | Harz Mountains | Germany &nbsp;|
-      <br/>
-      |-----------+----------------+----------|
-      <br/>
-    </div>
-    <h2>Syncing your data</h2>
-    Plain Org syncs data using iOS <a href="https://developer.apple.com/documentation/fileprovider">file-providing extensions</a>. If your favorite cloud service offers an iOS extension, Plain Org should be able to open, edit, and sync your data.
-    <br/>
-    <br/>
-    Your mileage may vary creating new files or opening local links. These may not be possible with your cloud service's extension support.
-    <h3 id="cloud-providers">Cloud provider support</h3>
-    <table border = "0" style="width:100%; table-layout: fixed ;">
-      <tr>
-        <td></td>
-        <td style="text-align: center;">View file</td>
-        <td style="text-align: center;">Edit file</td>
-        <td style="text-align: center;">New file</td>
-        <td style="text-align: center;">Open local links</td>
-      </tr>
+      Your mileage may vary creating new files or opening local links. These may not be possible with your cloud service's extension support.
+      <h3 id="cloud-providers">Cloud provider support</h3>
+      <table border = "0" style="width:100%; table-layout: fixed ;">
+        <tr>
+          <td></td>
+          <td style="text-align: center;">View file</td>
+          <td style="text-align: center;">Edit file</td>
+          <td style="text-align: center;">New file</td>
+          <td style="text-align: center;">Open local links</td>
+        </tr>
 
-      <tr>
-        <td>Dropbox</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;"></td>
-      </tr>
+        <tr>
+          <td>Dropbox</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;"></td>
+        </tr>
 
-      <tr>
-        <td>iCloud</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-      </tr>
+        <tr>
+          <td>iCloud</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+        </tr>
 
-      <tr>
-        <td>Google Drive</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;"></td>
-        <td style="text-align: center;"></td>
-      </tr>
+        <tr>
+          <td>Google Drive</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+        </tr>
 
-      <tr>
-        <td>Syncthing</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-      </tr>
+        <tr>
+          <td>Syncthing</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+        </tr>
 
-      <tr>
-        <td>Working Copy</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-        <td style="text-align: center;">○</td>
-      </tr>
-    </table>
-    <h3>Enabling cloud syncing</h3>
-    See iOS's <a href="https://support.apple.com/en-gb/HT206481#thirdparty">using third-party apps in Files</a> to enable syncing data with your cloud service.
-    <h2>Feature requests</h2>
-    Browse <a href="https://reddit.com/r/plainorg">r/plainorg</a> for existing feature requests. Upvote existing or file a new one. You can also send feedback via Plain Org itself.
-    <h2>Free download</h2>
+        <tr>
+          <td>Working Copy</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+          <td style="text-align: center;">○</td>
+        </tr>
+      </table>
+      <h3>Enabling cloud syncing</h3>
+      See iOS's <a href="https://support.apple.com/en-gb/HT206481#thirdparty">using third-party apps in Files</a> to enable syncing data with your cloud service.
+      <h2>Feature requests</h2>
+      Browse <a href="https://reddit.com/r/plainorg">r/plainorg</a> for existing feature requests. Upvote existing or file a new one. You can also send feedback via Plain Org itself.
+      <h2>Free download</h2>
 
-    Plain Org is a paid app. Please help support its development if you can. Ping me if you need a free copy. Email me at "plainorg" + "@" + "xenodium.com".
+      Plain Org is a paid app. Please help support its development if you can. Ping me if you need a free copy. Email me at "plainorg" + "@" + "xenodium.com".
 
-    <h2 id="beta">Beta testing</h2>
-    Please help support Plain Org's development by purchasing from the App Store. If you're feeling adventurous and have tolerance for a few rough edges, you can also get access to earlier (beta builds). I'll need an email address to send a TestFlight invite. Ping me on <a href="https://www.reddit/com/u/xenodium">reddit</a>, <a href="https://www.reddit.com/user/xenodium">twitter</a>, or email me at "plainorg" + "@" + "xenodium.com".
-    <h2 id="privacy">Privacy policy</h2>
-    No personal data is sent to any server, as there is no server component to this app. There are neither third party server integrations, accounts, analytics, advertising, nor hidden trackers in this app. All your data is kept on your iPhone, unless you choose a cloud provider to sync or store your data. See your cloud provider's privacy policy for details on how they may handle it.
-    <br/>
-    <br/>
-    <div style="text-align: center; font-size: small;">Floral unicorn by <a href="https://openclipart.org/detail/250813/floral-unicorn-silhouette">Gordon Dylan Johnson</a>.</div>
-    <br/>
-    <br/>
+      <h2 id="beta">Beta testing</h2>
+      Please help support Plain Org's development by purchasing from the App Store. If you're feeling adventurous and have tolerance for a few rough edges, you can also get access to earlier (beta builds). I'll need an email address to send a TestFlight invite. Ping me on <a href="https://www.reddit/com/u/xenodium">reddit</a>, <a href="https://www.reddit.com/user/xenodium">twitter</a>, or email me at "plainorg" + "@" + "xenodium.com".
+      <h2 id="privacy">Privacy policy</h2>
+      No personal data is sent to any server, as there is no server component to this app. There are neither third party server integrations, accounts, analytics, advertising, nor hidden trackers in this app. All your data is kept on your iPhone, unless you choose a cloud provider to sync or store your data. See your cloud provider's privacy policy for details on how they may handle it.
+      <br/>
+      <br/>
+      <div style="text-align: center; font-size: small;">Floral unicorn by <a href="https://openclipart.org/detail/250813/floral-unicorn-silhouette">Gordon Dylan Johnson</a>.</div>
+      <br/>
+      <br/>
   </body>
 </html>
