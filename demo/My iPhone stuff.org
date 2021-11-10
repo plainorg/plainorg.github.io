@@ -1,12 +1,16 @@
 #+TITLE: My iPhone stuff
 * Inbox
-** TODO [#A] Document unicorn sighting                               :research:truth:
+** DONE [#A] Publish Plain Org to App Store                        :plainorg:
+** NEXT [#B] Make [[https://xenodium.com/oatmeal-cookie-recipe][oatmeal cookies]] :cooking:
+[[file:oats.jpg]]
+** DONE [#A] Document unicorn sighting                       :research:truth:
 - [X] Talk to [[https://www.royalmint.com/discover/uk-coins/queensbeasts/qb-unicorn/][eyewitness]]
-- [ ] /Flesh/ _out_ ~evidence~ =table=
+- [X] /Flesh/ _out_ ~evidence~ =table=
   |-----------+----------------+----------|
   | last seen | location       | country  |
   |-----------+----------------+----------|
   |      2017 | The Royal Mint | Scotland |
+  |      1991 | Harz Mountains | Germany  |
   |-----------+----------------+----------|
 - [X] Gather ASCII evidence
 #+begin_example
@@ -23,9 +27,29 @@
          )\\      )\
  ^^^jgs^^"""^^^^^^""^^^^^^^^^^^
 #+end_example
-- [ ] Photograph evidence
-  [[file:unicorn.png]]
+- [X] Photograph evidence
+[[file:unicorn.png]]
 
+** DONE [#A] Call granny
+** DONE [#A] Call mom
+** DONE [#A] Call dad
+* Packing list
+- [ ] 🩲 Underwear
+- [ ] 🧦 Socks
+- [ ] 👕 T-shirts
+- [ ] 🪥 Toothbrush
+- [ ] 🦷 Toothpaste
+- [ ] 👖 Jeans
+- [ ] 💻 Laptop
+- [ ] 🔌 💻 Laptop charger
+- [ ] 🔌 📱 iPhone charger
+- [ ] 🔋 Power bank
+- [ ] 🛂 Passport
+- [ ] 👟 Running Shoes
+- [ ] 🩳 Running Shorts
+- [ ] 🎽 Running Shirt
+- [ ] 🪒 Razor
+- [ ] 💵 Cash
 * Plain Org
 ** TODO Push latest build
 * Org mode
