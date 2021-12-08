@@ -6,12 +6,12 @@
 ** DONE [#A] Document unicorn sighting                       :research:truth:
 - [X] Talk to [[https://www.royalmint.com/discover/uk-coins/queensbeasts/qb-unicorn/][eyewitness]]
 - [X] /Flesh/ _out_ ~evidence~ =table=
-  |-----------+----------------+----------|
-  | last seen | location       | country  |
-  |-----------+----------------+----------|
-  |      2017 | The Royal Mint | Scotland |
-  |      1991 | Harz Mountains | Germany  |
-  |-----------+----------------+----------|
+  |-----------+-------------------------------------------+----------|
+  | =last= *seen* | /location/                                  | country  |
+  |-----------+-------------------------------------------+----------|
+  | ~2017~      | The [[https:google.com][Royal Mint]] 📍Check out local currency | Scotland |
+  | /1991/      | Harz _Mountains_                            | Germany  |
+  |-----------+-------------------------------------------+----------|
 - [X] Gather ASCII evidence
 #+begin_src
                    ,%%%,
