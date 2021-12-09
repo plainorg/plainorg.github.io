@@ -1,9 +1,12 @@
 #+TITLE: My iPhone stuff
 * Inbox
 ** DONE [#A] Publish Plain Org to App Store                        :plainorg:
+SCHEDULED: <2021-12-09 Thu>
 ** NEXT [#B] Make [[https://xenodium.com/oatmeal-cookie-recipe][oatmeal cookies]] :cooking:
+SCHEDULED: <2021-12-10 Fri>
 [[file:oats.jpg]]
 ** DONE [#A] Document unicorn sighting                       :research:truth:
+SCHEDULED: <2021-12-11 Sat>
 - [X] Talk to [[https://www.royalmint.com/discover/uk-coins/queensbeasts/qb-unicorn/][eyewitness]]
 - [X] /Flesh/ _out_ ~evidence~ =table=
   |-----------+-------------------------------------------+----------|
@@ -31,8 +34,11 @@
 [[file:unicorn.png]]
 
 ** DONE [#A] Call granny
+SCHEDULED: <2021-12-12 Sun>
 ** DONE [#A] Call mom
+SCHEDULED: <2021-12-13 Mon>
 ** DONE [#A] Call dad
+SCHEDULED: <2021-12-14 Tue>
 * Packing list
 - [ ] 🩲 Underwear
 - [ ] 🧦 Socks
