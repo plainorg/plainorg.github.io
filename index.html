@@ -141,7 +141,7 @@
       Here's a sample snippet:
       <br/>
       <br/>
-      <div style="font-family: monospace, monospace; max-width: 90%; font-size: x-small;">
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: x-small;">
         #+TITLE: My iPhone stuff
         <br/>
         <br/>
@@ -239,9 +239,20 @@
       <h2 id="beta">Beta testing</h2>
       Please help support Plain Org by purchasing from the App Store. If you're feeling adventurous and have tolerance for a few rough edges, you can also get access to early beta builds via TestFlight. I'll need an email address to send you an invite. Ping me on <a href="https://www.reddit.com/u/xenodium">reddit</a>, <a href="https://twitter.com/xenodium">twitter</a>, or email me at "plainorg" + "@" + "xenodium.com".
       <h2 id="faq">FAQ</h2>
-      <h3 id="which-links">What kind of links are supported?</h3>
+      <h3 id="faq-custom-keywords">Can I use my own custom keywords?</h3>
+      Yes. Plain Org recognizes <a href="https://orgmode.org/manual/Per_002dfile-keywords.html">per-file keywords</a>. That is, in the org file itself, you can specify both active and inactive keywords. You can the following to an existing org file:
+      <br/>
+      <br/>
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+        #+TODO: TODO STARTED BLOCKED | DONE CANCELLED
+      </div>
+      <br/>
+      <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Keywords on the left hand side of the "|" are considered active while those on the right are inactive.</span>
+      <h3 id="faq-how-to-sync">How do I sync my org files?</h3>
+      All depends on your preferred provider. See <a href="#syncing-your-data">syncing your data<a/>.
+      <h3 id="faq-which-links">What kind of links are supported?</h3>
       <h4>http(s):// links</h4>
-      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
         https://plainorg.com
         <br/>
         http://plainorg.com
@@ -254,7 +265,7 @@
       <br/>
       <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve id links.</span>
       <h5>bar.org</h5>
-      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
         :PROPERTIES:
         <br/>
         :ID:       90daa47c-3d6b-4d94-bf78-18d776c431c1
@@ -269,7 +280,7 @@
         * TODO Review [[id:e4453d79-227f-4a78-bf04-9bdff5e4675f][Foo]]
       </div>
       <h5>foo.org</h5>
-      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
         :PROPERTIES:
         <br/>
         :ID:       e4453d79-227f-4a78-bf04-9bdff5e4675f
@@ -292,7 +303,7 @@
       <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve file links.</span>
       <br/>
       <br/>
-      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
         [[file:path/to/foo.org][Foo]]
         <br/>
         [[file:path/to/image.png]]
