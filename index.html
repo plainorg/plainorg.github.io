@@ -250,72 +250,89 @@
       <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Keywords on the left hand side of the "|" are considered active while those on the right are inactive.</span>
       <h3 id="faq-how-to-sync">How do I sync my org files?</h3>
       All depends on your preferred provider. See <a href="#syncing-your-data">syncing your data<a/>.
-      <h3 id="faq-which-links">What kind of links are supported?</h3>
-      <h4>http(s):// links</h4>
-      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
-        https://plainorg.com
-        <br/>
-        http://plainorg.com
-        <br/>
-        [[https://plainorg.com][Plain Org]]
-      </div>
-      <h4>id: links (across files)</h4>
-      To resolve id links, Plain Org needs granted access to a directory. When an id link is opened, the app searches the owning directory for other org files that may contain the id that's linked to. The following snippet shows a sample snippet:
-      <br/>
-      <br/>
-      <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve id links.</span>
-      <h5>bar.org</h5>
-      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
-        :PROPERTIES:
-        <br/>
-        :ID:       90daa47c-3d6b-4d94-bf78-18d776c431c1
-        <br/>
-        :CREATED:  [2021-09-28 Tue 09:02]
-        <br/>
-        :END:
-        <br/>
-        #+TITLE: Bar
+        <h3 id="faq-which-links">What kind of links are supported?</h3>
+        <h4>http(s):// links</h4>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          https://plainorg.com
+          <br/>
+          http://plainorg.com
+          <br/>
+          [[https://plainorg.com][Plain Org]]
+        </div>
+        <h4>id: links (across files)</h4>
+        To resolve id links, Plain Org needs granted access to a directory. When an id link is opened, the app searches the owning directory for other org files that may contain the id that's linked to. The following snippet shows a sample snippet:
         <br/>
         <br/>
-        * TODO Review [[id:e4453d79-227f-4a78-bf04-9bdff5e4675f][Foo]]
-      </div>
-      <h5>foo.org</h5>
-      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
-        :PROPERTIES:
+        <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve id links.</span>
+        <h5>Documents/bar.org</h5>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          :PROPERTIES:
+          <br/>
+          :ID:       90daa47c-3d6b-4d94-bf78-18d776c431c1
+          <br/>
+          :CREATED:  [2021-09-28 Tue 09:02]
+          <br/>
+          :END:
+          <br/>
+          #+TITLE: Bar
+          <br/>
+          <br/>
+          * TODO Review [[id:e4453d79-227f-4a78-bf04-9bdff5e4675f][Foo]]
+        </div>
+        <h5>Documents/foo.org</h5>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          :PROPERTIES:
+          <br/>
+          :ID:       e4453d79-227f-4a78-bf04-9bdff5e4675f
+          <br/>
+          :CREATED:  [2021-09-28 Tue 09:02]
+          <br/>
+          :END:
+          <br/>
+          #+TITLE: Foo
+          <br/>
+          <br/>
+          * Some heading
+          <br/>
+          * Another heading
+        </div>
+        <h4>file: links</h4>
+        To resolve file links, Plain Org needs granted access to a directory. When an file link is opened, the app tries to access the referenced file within the owning directory. If the linked file is an image and is accessible, Plain Org renders it inline. For others, like pdfs, they are opened in a modal screen.
         <br/>
-        :ID:       e4453d79-227f-4a78-bf04-9bdff5e4675f
         <br/>
-        :CREATED:  [2021-09-28 Tue 09:02]
+        <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve file links.</span>
         <br/>
-        :END:
+        <h5>File structure</h5>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          Documents/report.org
+          <br/>
+          Documents/subdir/image.png
+          <br/>
+          Documents/subdir/foo.org
+          <br/>
+          Documents/subdir/document.pdf
+          <br/>
+        </div>
+        <h5>Documents/report.org</h5>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          [[file:subdir/foo.org][Foo]]
+          <br/>
+          [[file:subdir/image.png]]
+          <br/>
+          [[file:subdir/document.pdf]]
+        </div>
         <br/>
-        #+TITLE: Foo
+        <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Relative link resolution requires the org file's owning directory (i.e. Documents) to be a parent of the linked file.</span>
+        <h5>Unsupported</h5>
+        <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
+          [[file:../Desktop/foo.org][Foo]]
+        </div>
+        <h2 id="privacy">Privacy policy</h2>
+        No personal data is sent to any server, as there is no server component to this app. There are neither third party server integrations, accounts, analytics, advertising, nor hidden trackers in this app. All your data is kept on your iPhone, unless you choose a cloud provider to sync or store your data. See your cloud provider's privacy policy for details on how they may handle it.
         <br/>
         <br/>
-        * Some heading
+        <div style="text-align: center; font-size: small;">Floral unicorn by <a href="https://openclipart.org/detail/250813/floral-unicorn-silhouette">Gordon Dylan Johnson</a>.</div>
         <br/>
-        * Another heading
-      </div>
-      <h4>file: links</h4>
-      To resolve file links, Plain Org needs granted access to a directory. When an file link is opened, the app tries to access the referenced file within the owning directory. If the linked file is an image and is accessible, Plain Org renders it inline. For others, like pdfs, they are opened in a modal screen.
-      <br/>
-      <br/>
-      <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve file links.</span>
-      <br/>
-      <br/>
-      <div style="padding-left: 20px; font-family: monospace, monospace; max-width: 90%; font-size: small;">
-        [[file:path/to/foo.org][Foo]]
         <br/>
-        [[file:path/to/image.png]]
-        <br/>
-        [[file:path/to/document.pdf]]
-      </div>
-      <h2 id="privacy">Privacy policy</h2>
-      No personal data is sent to any server, as there is no server component to this app. There are neither third party server integrations, accounts, analytics, advertising, nor hidden trackers in this app. All your data is kept on your iPhone, unless you choose a cloud provider to sync or store your data. See your cloud provider's privacy policy for details on how they may handle it.
-      <br/>
-      <br/>
-      <div style="text-align: center; font-size: small;">Floral unicorn by <a href="https://openclipart.org/detail/250813/floral-unicorn-silhouette">Gordon Dylan Johnson</a>.</div>
-      <br/>
-      <br/>
   </body>
 </html>
