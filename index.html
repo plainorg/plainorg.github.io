@@ -238,6 +238,67 @@
 
       <h2 id="beta">Beta testing</h2>
       Please help support Plain Org by purchasing from the App Store. If you're feeling adventurous and have tolerance for a few rough edges, you can also get access to early beta builds via TestFlight. I'll need an email address to send you an invite. Ping me on <a href="https://www.reddit.com/u/xenodium">reddit</a>, <a href="https://twitter.com/xenodium">twitter</a>, or email me at "plainorg" + "@" + "xenodium.com".
+      <h2 id="faq">FAQ</h2>
+      <h3 id="which-links">What kind of links are supported?</h3>
+      <h4>http(s):// links</h4>
+      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+        https://plainorg.com
+        <br/>
+        http://plainorg.com
+        <br/>
+        [[https://plainorg.com][Plain Org]]
+      </div>
+      <h4>id: links (across files)</h4>
+      To resolve id links, Plain Org needs granted access to a directory. When an id link is opened, the app searches the owning directory for other org files that may contain the id that's linked to. The following snippet shows a sample snippet:
+      <br/>
+      <br/>
+      <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve id links.</span>
+      <h5>bar.org</h5>
+      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+        :PROPERTIES:
+        <br/>
+        :ID:       90daa47c-3d6b-4d94-bf78-18d776c431c1
+        <br/>
+        :CREATED:  [2021-09-28 Tue 09:02]
+        <br/>
+        :END:
+        <br/>
+        #+TITLE: Bar
+        <br/>
+        <br/>
+        * TODO Review [[id:e4453d79-227f-4a78-bf04-9bdff5e4675f][Foo]]
+      </div>
+      <h5>foo.org</h5>
+      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+        :PROPERTIES:
+        <br/>
+        :ID:       e4453d79-227f-4a78-bf04-9bdff5e4675f
+        <br/>
+        :CREATED:  [2021-09-28 Tue 09:02]
+        <br/>
+        :END:
+        <br/>
+        #+TITLE: Foo
+        <br/>
+        <br/>
+        * Some heading
+        <br/>
+        * Another heading
+      </div>
+      <h4>file: links</h4>
+      To resolve file links, Plain Org needs granted access to a directory. When an file link is opened, the app tries to access the referenced file within the owning directory. If the linked file is an image and is accessible, Plain Org renders it inline. For others, like pdfs, they are opened in a modal screen.
+      <br/>
+      <br/>
+      <span style="font-weight: bold; font-style: italic;">Note:</span><span style="font-style: italic;"> Not all syncing providers support granting access to a directory. Without this, Plain Org is unable to resolve file links.</span>
+      <br/>
+      <br/>
+      <div style="font-family: monospace, monospace; max-width: 90%; font-size: small;">
+        [[file:path/to/foo.org][Foo]]
+        <br/>
+        [[file:path/to/image.png]]
+        <br/>
+        [[file:path/to/document.pdf]]
+      </div>
       <h2 id="privacy">Privacy policy</h2>
       No personal data is sent to any server, as there is no server component to this app. There are neither third party server integrations, accounts, analytics, advertising, nor hidden trackers in this app. All your data is kept on your iPhone, unless you choose a cloud provider to sync or store your data. See your cloud provider's privacy policy for details on how they may handle it.
       <br/>
