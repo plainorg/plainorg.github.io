@@ -28,171 +28,168 @@
     return result
   }
 
-  let countriesJson = """
-    {
-    "al": "Albania",
-    "dz": "Algeria",
-    "ao": "Angola",
-    "ai": "Anguilla",
-    "ag": "Antigua and Barbuda",
-    "ar": "Argentina",
-    "am": "Armenia",
-    "au": "Australia",
-    "at": "Austria",
-    "az": "Azerbaijan",
-    "bs": "Bahamas",
-    "bh": "Bahrain",
-    "bb": "Barbados",
-    "by": "Belarus",
-    "be": "Belgium",
-    "bz": "Belize",
-    "bj": "Benin",
-    "bm": "Bermuda",
-    "bt": "Bhutan",
-    "bo": "Bolivia",
-    "bw": "Botswana",
-    "br": "Brazil",
-    "vg": "British Virgin Islands",
-    "bn": "Brunei Darussalam",
-    "bg": "Bulgaria",
-    "bf": "Burkina-Faso",
-    "kh": "Cambodia",
-    "ca": "Canada",
-    "cv": "Cape Verde",
-    "ky": "Cayman Islands",
-    "td": "Chad",
-    "cl": "Chile",
-    "cn": "China",
-    "co": "Colombia",
-    "cr": "Costa Rica",
-    "hr": "Croatia",
-    "cy": "Cyprus",
-    "cz": "Czech Republic",
-    "cg": "Democratic Republic of the Congo",
-    "dk": "Denmark",
-    "dm": "Dominica",
-    "do": "Dominican Republic",
-    "ec": "Ecuador",
-    "eg": "Egypt",
-    "sv": "El Salvador",
-    "ee": "Estonia",
-    "fm": "Federated States of Micronesia",
-    "fj": "Fiji",
-    "fi": "Finland",
-    "fr": "France",
-    "gm": "Gambia",
-    "de": "Germany",
-    "gh": "Ghana",
-    "gb": "Great Britain",
-    "gr": "Greece",
-    "gd": "Grenada",
-    "gt": "Guatemala",
-    "gw": "Guinea Bissau",
-    "gy": "Guyana",
-    "hn": "Honduras",
-    "hk": "Hong Kong",
-    "hu": "Hungaria",
-    "is": "Iceland",
-    "in": "India",
-    "id": "Indonesia",
-    "ie": "Ireland",
-    "il": "Israel",
-    "it": "Italy",
-    "jm": "Jamaica",
-    "jp": "Japan",
-    "jo": "Jordan",
-    "kz": "Kazakhstan",
-    "ke": "Kenya",
-    "kg": "Krygyzstan",
-    "kw": "Kuwait",
-    "la": "Laos",
-    "lv": "Latvia",
-    "lb": "Lebanon",
-    "lr": "Liberia",
-    "lt": "Lithuania",
-    "lu": "Luxembourg",
-    "mo": "Macau",
-    "mk": "Macedonia",
-    "mg": "Madagascar",
-    "mw": "Malawi",
-    "my": "Malaysia",
-    "ml": "Mali",
-    "mt": "Malta",
-    "mr": "Mauritania",
-    "mu": "Mauritius",
-    "mx": "Mexico",
-    "md": "Moldova",
-    "mn": "Mongolia",
-    "ms": "Montserrat",
-    "mz": "Mozambique",
-    "na": "Namibia",
-    "np": "Nepal",
-    "nl": "Netherlands",
-    "nz": "New Zealand",
-    "ni": "Nicaragua",
-    "ne": "Niger",
-    "ng": "Nigeria",
-    "no": "Norway",
-    "om": "Oman",
-    "pk": "Pakistan",
-    "pw": "Palau",
-    "pa": "Panama",
-    "pg": "Papua New Guinea",
-    "py": "Paraguay",
-    "pe": "Peru",
-    "ph": "Philippines",
-    "pl": "Poland",
-    "pt": "Portugal",
-    "qa": "Qatar",
-    "tt": "Republic of Trinidad and Tobago",
-    "ro": "Romania",
-    "ru": "Russia",
-    "kn": "Saint Kitts and Nevis",
-    "lc": "Saint Lucia",
-    "vc": "Saint Vincent and the Grenadines",
-    "st": "Sao Tome e Principe",
-    "sa": "Saudi Arabia",
-    "sn": "Senegal",
-    "sc": "Seychelles",
-    "sl": "Sierra Leone",
-    "sg": "Singapore",
-    "sk": "Slovakia",
-    "si": "Slovenia",
-    "sb": "Soloman Islands",
-    "za": "South Africa",
-    "kr": "South Korea",
-    "es": "Spain",
-    "lk": "Sri Lanka",
-    "sr": "Suriname",
-    "sz": "Swaziland",
-    "se": "Sweden",
-    "ch": "Switzerland",
-    "tw": "Taiwan",
-    "tj": "Tajikistan",
-    "tz": "Tanzania",
-    "th": "Thailand",
-    "tn": "Tunisia",
-    "tr": "Turkey",
-    "tm": "Turkmenistan",
-    "tc": "Turks and Caicos Islands",
-    "ug": "Uganda",
-    "ua": "Ukraine",
-    "ae": "United Arab Emirates",
-    "us": "United States",
-    "uy": "Uruguay",
-    "uz": "Uzbekistan",
-    "ve": "Venezuela",
-    "vn": "Vietnam",
-    "ye": "Yemen",
-    "zw": "Zimbabwe"
-    }
-    """
-  guard
-    let countries = try? JSONSerialization.jsonObject(with: Data(countriesJson.utf8), options: [])
-      as? [String: Any]
-  else {
-    fatalError("no countries")
+  struct Country {
+    let code: String
+    let name: String
   }
+
+  let countries = [
+    Country(code: "al", name: "Albania"),
+    Country(code: "dz", name: "Algeria"),
+    Country(code: "ao", name: "Angola"),
+    Country(code: "ai", name: "Anguilla"),
+    Country(code: "ag", name: "Antigua and Barbuda"),
+    Country(code: "ar", name: "Argentina"),
+    Country(code: "am", name: "Armenia"),
+    Country(code: "au", name: "Australia"),
+    Country(code: "at", name: "Austria"),
+    Country(code: "az", name: "Azerbaijan"),
+    Country(code: "bs", name: "Bahamas"),
+    Country(code: "bh", name: "Bahrain"),
+    Country(code: "bb", name: "Barbados"),
+    Country(code: "by", name: "Belarus"),
+    Country(code: "be", name: "Belgium"),
+    Country(code: "bz", name: "Belize"),
+    Country(code: "bj", name: "Benin"),
+    Country(code: "bm", name: "Bermuda"),
+    Country(code: "bt", name: "Bhutan"),
+    Country(code: "bo", name: "Bolivia"),
+    Country(code: "bw", name: "Botswana"),
+    Country(code: "br", name: "Brazil"),
+    Country(code: "vg", name: "British Virgin Islands"),
+    Country(code: "bn", name: "Brunei Darussalam"),
+    Country(code: "bg", name: "Bulgaria"),
+    Country(code: "bf", name: "Burkina-Faso"),
+    Country(code: "kh", name: "Cambodia"),
+    Country(code: "ca", name: "Canada"),
+    Country(code: "cv", name: "Cape Verde"),
+    Country(code: "ky", name: "Cayman Islands"),
+    Country(code: "td", name: "Chad"),
+    Country(code: "cl", name: "Chile"),
+    Country(code: "cn", name: "China"),
+    Country(code: "co", name: "Colombia"),
+    Country(code: "cr", name: "Costa Rica"),
+    Country(code: "hr", name: "Croatia"),
+    Country(code: "cy", name: "Cyprus"),
+    Country(code: "cz", name: "Czech Republic"),
+    Country(code: "cg", name: "Democratic Republic of the Congo"),
+    Country(code: "dk", name: "Denmark"),
+    Country(code: "dm", name: "Dominica"),
+    Country(code: "do", name: "Dominican Republic"),
+    Country(code: "ec", name: "Ecuador"),
+    Country(code: "eg", name: "Egypt"),
+    Country(code: "sv", name: "El Salvador"),
+    Country(code: "ee", name: "Estonia"),
+    Country(code: "fm", name: "Federated States of Micronesia"),
+    Country(code: "fj", name: "Fiji"),
+    Country(code: "fi", name: "Finland"),
+    Country(code: "fr", name: "France"),
+    Country(code: "gm", name: "Gambia"),
+    Country(code: "de", name: "Germany"),
+    Country(code: "gh", name: "Ghana"),
+    Country(code: "gb", name: "Great Britain"),
+    Country(code: "gr", name: "Greece"),
+    Country(code: "gd", name: "Grenada"),
+    Country(code: "gt", name: "Guatemala"),
+    Country(code: "gw", name: "Guinea Bissau"),
+    Country(code: "gy", name: "Guyana"),
+    Country(code: "hn", name: "Honduras"),
+    Country(code: "hk", name: "Hong Kong"),
+    Country(code: "hu", name: "Hungaria"),
+    Country(code: "is", name: "Iceland"),
+    Country(code: "in", name: "India"),
+    Country(code: "id", name: "Indonesia"),
+    Country(code: "ie", name: "Ireland"),
+    Country(code: "il", name: "Israel"),
+    Country(code: "it", name: "Italy"),
+    Country(code: "jm", name: "Jamaica"),
+    Country(code: "jp", name: "Japan"),
+    Country(code: "jo", name: "Jordan"),
+    Country(code: "kz", name: "Kazakhstan"),
+    Country(code: "ke", name: "Kenya"),
+    Country(code: "kg", name: "Krygyzstan"),
+    Country(code: "kw", name: "Kuwait"),
+    Country(code: "la", name: "Laos"),
+    Country(code: "lv", name: "Latvia"),
+    Country(code: "lb", name: "Lebanon"),
+    Country(code: "lr", name: "Liberia"),
+    Country(code: "lt", name: "Lithuania"),
+    Country(code: "lu", name: "Luxembourg"),
+    Country(code: "mo", name: "Macau"),
+    Country(code: "mk", name: "Macedonia"),
+    Country(code: "mg", name: "Madagascar"),
+    Country(code: "mw", name: "Malawi"),
+    Country(code: "my", name: "Malaysia"),
+    Country(code: "ml", name: "Mali"),
+    Country(code: "mt", name: "Malta"),
+    Country(code: "mr", name: "Mauritania"),
+    Country(code: "mu", name: "Mauritius"),
+    Country(code: "mx", name: "Mexico"),
+    Country(code: "md", name: "Moldova"),
+    Country(code: "mn", name: "Mongolia"),
+    Country(code: "ms", name: "Montserrat"),
+    Country(code: "mz", name: "Mozambique"),
+    Country(code: "na", name: "Namibia"),
+    Country(code: "np", name: "Nepal"),
+    Country(code: "nl", name: "Netherlands"),
+    Country(code: "nz", name: "New Zealand"),
+    Country(code: "ni", name: "Nicaragua"),
+    Country(code: "ne", name: "Niger"),
+    Country(code: "ng", name: "Nigeria"),
+    Country(code: "no", name: "Norway"),
+    Country(code: "om", name: "Oman"),
+    Country(code: "pk", name: "Pakistan"),
+    Country(code: "pw", name: "Palau"),
+    Country(code: "pa", name: "Panama"),
+    Country(code: "pg", name: "Papua New Guinea"),
+    Country(code: "py", name: "Paraguay"),
+    Country(code: "pe", name: "Peru"),
+    Country(code: "ph", name: "Philippines"),
+    Country(code: "pl", name: "Poland"),
+    Country(code: "pt", name: "Portugal"),
+    Country(code: "qa", name: "Qatar"),
+    Country(code: "tt", name: "Republic of Trinidad and Tobago"),
+    Country(code: "ro", name: "Romania"),
+    Country(code: "ru", name: "Russia"),
+    Country(code: "kn", name: "Saint Kitts and Nevis"),
+    Country(code: "lc", name: "Saint Lucia"),
+    Country(code: "vc", name: "Saint Vincent and the Grenadines"),
+    Country(code: "st", name: "Sao Tome e Principe"),
+    Country(code: "sa", name: "Saudi Arabia"),
+    Country(code: "sn", name: "Senegal"),
+    Country(code: "sc", name: "Seychelles"),
+    Country(code: "sl", name: "Sierra Leone"),
+    Country(code: "sg", name: "Singapore"),
+    Country(code: "sk", name: "Slovakia"),
+    Country(code: "si", name: "Slovenia"),
+    Country(code: "sb", name: "Soloman Islands"),
+    Country(code: "za", name: "South Africa"),
+    Country(code: "kr", name: "South Korea"),
+    Country(code: "es", name: "Spain"),
+    Country(code: "lk", name: "Sri Lanka"),
+    Country(code: "sr", name: "Suriname"),
+    Country(code: "sz", name: "Swaziland"),
+    Country(code: "se", name: "Sweden"),
+    Country(code: "ch", name: "Switzerland"),
+    Country(code: "tw", name: "Taiwan"),
+    Country(code: "tj", name: "Tajikistan"),
+    Country(code: "tz", name: "Tanzania"),
+    Country(code: "th", name: "Thailand"),
+    Country(code: "tn", name: "Tunisia"),
+    Country(code: "tr", name: "Turkey"),
+    Country(code: "tm", name: "Turkmenistan"),
+    Country(code: "tc", name: "Turks and Caicos Islands"),
+    Country(code: "ug", name: "Uganda"),
+    Country(code: "ua", name: "Ukraine"),
+    Country(code: "ae", name: "United Arab Emirates"),
+    Country(code: "us", name: "United States"),
+    Country(code: "uy", name: "Uruguay"),
+    Country(code: "uz", name: "Uzbekistan"),
+    Country(code: "ve", name: "Venezuela"),
+    Country(code: "vn", name: "Vietnam"),
+    Country(code: "ye", name: "Yemen"),
+    Country(code: "zw", name: "Zimbabwe"),
+  ]
 
   func print(_ review: [String: Any], countryName: String, countryCode: String) {
     let stars: String =
@@ -236,14 +233,14 @@
     )
   }
 
-  for (countryCode, countryName) in countries {
+  for country in countries {
     let url =
-      "https://itunes.apple.com/\(countryCode)/rss/customerreviews/id=1578965002/mostrecent/json"
+      "https://itunes.apple.com/\(country.code)/rss/customerreviews/id=1578965002/mostrecent/json"
     let json = parse(json: query(address: url))
     let feed = json?["feed"] as? [String: Any]
 
     if let review = feed?["entry"] as? [String: Any] {
-      print(review, countryName: (countryName as? String) ?? "??", countryCode: countryCode)
+      print(review, countryName: country.name, countryCode: country.code)
       continue
     }
 
@@ -255,257 +252,257 @@
       guard let review = any as? [String: Any] else {
         continue
       }
-      print(review, countryName: (countryName as? String) ?? "??", countryCode: countryCode)
+      print(review, countryName: country.name, countryCode: country.code)
     }
   }
 #+end_src
 
 #+RESULTS:
 #+begin_example
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">foobar'ed</span> <span style="font-size: small;">21/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">I want to support this project</span>
-            <br/>
-            Great app. Great Philosphy.
-          </div>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">jasonmj2</span> <span style="font-size: small;">11/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Clean, productive, task management</span>
-            <br/>
-            Good software gets out of your way and provides clean, clear pathways to accomplish your goals. Plain org does exactly that for task management. It also happens to be compatible with org-mode, which makes it especially useful for Emacs users. Regardless of your org-mode experience level, Plain org presents you with an elegant interface for managing your task list along with the core features org-mode is revered for (statuses, nested tasks, tags, and more).
-          </div>
+          <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">23/12/21</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">24/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">great app! talented & responsive developer.</span>
-            <br/>
-            an excellent app. as elegant as it is pragmatic. very useful. increasing in power with each release. i could easily imagine someone with no experience with emacs using this app, deciding learning to use org-mode on their laptop and a few months later wondering how they used to live without it. kind of like what happened with me.
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">19/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">gorgeous implementation of org-mode on iOS</span>
-            <br/>
-            This is a gorgeous implementation of org-mode on iOS. It is rather spartan in functionality and options, which may be a draw for long-time Emacs users used to customizing everything under the sun, but makes org-mode more accessible and user-friendly for everyone else. Even I, the world's best Emacs user, very much appreciate the elegance and cleanness of the interface, and all of the features that the developer chose to implement work really well. I am also impressed by how closely the developer listens to feedback and how quickly changes are implemented. Kudos!
-          </div>
+          <span style="font-weight: bold;">An essential and beautiful app for org mode on the go</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">14/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Text based task management</span>
-            <br/>
-            Recently purchased on a whim as I’ve been looking for a task management solution where I could make heavy use of text but still find it usable and easy to interface with on a phone. It fits the bill so far and I love how responsive the developer is and there commitment to improve it. Looking forward to seeing this app grow/mature.
-          </div>
-          <br/>
-          <div>
-            ★★★★☆
-            <br/>
-            <span style="font-size: small; font-weight: bold;">vrinek</span> <span style="font-size: small;">14/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">I love the streamlined design</span>
-            <br/>
-            I’m following GTD on org files and Plain Org is the best app I’ve found for capturing. And it can sync with anything that exposes a files API (eg my NextCloud).
+          This app has been a game-changer for me. I use it to write and edit todo lists, notes and journal when I’m away from my computer and the app seamlessly syncs these with files and backups through the cloud (I use iCloud). It is also fantastic for inserting links to items (like webpages, snippets of code) on my iPhone.
 
-  Once tags filtering is implemented, I’ll be able to use it for much more of my GTD workflow.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">FairlyTony</span> <span style="font-size: small;">03/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">An excellent mobile Org companion</span>
-            <br/>
-            I’ve been very satisfied with the combination of Plain Org and Working Copy for sync. Plain Org is fast and responsive, making it easy to check my notes when afk, or jot down a TODO while it’s on my mind.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">27/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Excellent app for editing Org-mode files</span>
-            <br/>
-            I’ve been testing this app for a few months now, and have been extremely impressed with how much the developer has worked to quickly add new features. It has the best UI for working with Org-mode agenda files that I’ve seen outside of Emacs itself. As soon as I saw that it was available on the App Store, I deleted my test versions and gladly paid for it. I’m grateful for the opportunity to send $8.99 to someone who has worked extremely hard to produce something I’ve needed for years.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Zucosane</span> <span style="font-size: small;">23/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Beautifully implemented Org Mode app</span>
-            <br/>
-            The app is gorgeous and responsive, exactly what I need to interact with my org files on mobile. The developer is great and is consistently implementing new features, I’m always looking forward to updates.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">14/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">The best for Org-mode on iOS</span>
-            <br/>
-            I've been using Org-mode for more than a decade and I've tried all kinds of other iOS apps in an attempt to make my Org files accessible on my iPhone / iPad. This is the first app that does this beautifully and in a way that feels intuitive. The developer is very friendly, responsive, and quick to implement fixes and I look forward to new releases!
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
-            <br/>
-            <span style="font-weight: bold;">The pleasure of Org on iOS</span>
-            <br/>
-            I've gone through each and every org-mode supporting (and "supporting") app that works on iPhone. Native, PWA, you name it. They all fell short with either being too focused on tasks or too clunky to work with. PlainOrg is a pleasure to work with. Not overpacked w features, not lacking anything of substance. Love it. Thanks a bunch for all the efforts u/xenodium!
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">A pretty good org-mode App!</span>
-            <br/>
-            Compare to another org-mode Apps for iOS-device, it supports many unique features like displaying inline images or rendering table perfectly even with full-width characters(like Chinese characters).
-  And the most important: the author is very responsive so once you have any idea or advice, just talk to him!
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">eeee2018</span> <span style="font-size: small;">01/01/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Great Org App</span>
-            <br/>
-            Thank you for providing a plain text organizer. The author is very responsive and improves the app continually.
+I use emacs org mode for almost everything I do: keeping todo lists, plans, notes from meetings or research ideas, drafting papers, preparing presentations. (I transitioned to org mode after trying many other “productivity” programs, because none of them gave me the interface I needed between all of these functions.)
 
-   It provides a very good raw edit feature. Great for tasks.
-  You can check the developer website for details.
+Until Plainorg came along, I used org mode and accessed my org files only when I was sitting in front of a computer. None of the other mobile options gave me an easy sync with the cloud. (Maybe I’m just not tech-savvy enough!) I think I was also turned off by the other app’s clunky interfaces on an iPhone. This meant I carried around paper notebooks to jot down items, or ideas, as they occurred to me when away from a laptop or desktop. But, this was not ideal – I missed nuances: todo actions that would pop up when I’m writing notes, or detailed URLs (when I was too lazy to collect them under some easy-to-find-again bookmark).
 
-  Agenda feature is missing so far, but the developer is constantly adding features. We are all invited to ask. :) That is wonderful.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">mshkrebtan</span> <span style="font-size: small;">25/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Magnificent</span>
-            <br/>
-            The Org Mode app we needed so much!
+Plainorg is the first app I have found which works on an iPhone and it works brilliantly! I've reached out to the developer on a few small issues and he was very quick to respond. I recommend it very highly to anyone who is using org mode.
 
-  Indeed, the interface is plain and it is so easy to use. Moreover, the app supports a rich set of Org Mode features, it is magnificent!
-          </div>
+The beautiful interface is incentive enough to start using org mode I think, if you’re not using it already.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">nielsk</span> <span style="font-size: small;">24/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Great org-mode-client</span>
-            <br/>
-            Great org-mode-client that works better than beorg for notes. And it works together with WorkingCopy, so that I can sync my org-files with git. The developer is also very responsive and listens to his users.
-          </div>
+          <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">lycopodiopsida</span> <span style="font-size: small;">23/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">A different take on org tables editing!</span>
-            <br/>
-            Plain org is an org files editor, allowing to edit org tables, view images and so on. Also, the UX is quite good. I hope that one day the agenda functionality will also be added, but it is also useful as it is now.
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Berengar I</span> <span style="font-size: small;">22/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ie/app/id1578965002">Ireland</a>
-            <br/>
-            <span style="font-weight: bold;">Kudos</span>
-            <br/>
-            Great app, best in class if you want something simple for note-taking for example.
-          </div>
+          <span style="font-weight: bold;">A pretty good org-mode App!</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">03/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
-            <br/>
-            <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
-            <br/>
-            Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
-          </div>
+          Compare to another org-mode Apps for iOS-device, it supports many unique features like displaying inline images or rendering table perfectly even with full-width characters(like Chinese characters).
+And the most important: the author is very responsive so once you have any idea or advice, just talk to him!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">23/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
-            <br/>
-            <span style="font-weight: bold;">An essential and beautiful app for org mode on the go</span>
-            <br/>
-            This app has been a game-changer for me. I use it to write and edit todo lists, notes and journal when I’m away from my computer and the app seamlessly syncs these with files and backups through the cloud (I use iCloud). It is also fantastic for inserting links to items (like webpages, snippets of code) on my iPhone.
+          <span style="font-size: small; font-weight: bold;">eeee2018</span> <span style="font-size: small;">01/01/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Great Org App</span>
+          <br/>
+          Thank you for providing a plain text organizer. The author is very responsive and improves the app continually.
 
-  I use emacs org mode for almost everything I do: keeping todo lists, plans, notes from meetings or research ideas, drafting papers, preparing presentations. (I transitioned to org mode after trying many other “productivity” programs, because none of them gave me the interface I needed between all of these functions.)
+ It provides a very good raw edit feature. Great for tasks.
+You can check the developer website for details.
 
-  Until Plainorg came along, I used org mode and accessed my org files only when I was sitting in front of a computer. None of the other mobile options gave me an easy sync with the cloud. (Maybe I’m just not tech-savvy enough!) I think I was also turned off by the other app’s clunky interfaces on an iPhone. This meant I carried around paper notebooks to jot down items, or ideas, as they occurred to me when away from a laptop or desktop. But, this was not ideal – I missed nuances: todo actions that would pop up when I’m writing notes, or detailed URLs (when I was too lazy to collect them under some easy-to-find-again bookmark).
-
-  Plainorg is the first app I have found which works on an iPhone and it works brilliantly! I've reached out to the developer on a few small issues and he was very quick to respond. I recommend it very highly to anyone who is using org mode.
-
-  The beautiful interface is incentive enough to start using org mode I think, if you’re not using it already.
-          </div>
+Agenda feature is missing so far, but the developer is constantly adding features. We are all invited to ask. :) That is wonderful.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
+          <span style="font-size: small; font-weight: bold;">mshkrebtan</span> <span style="font-size: small;">25/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Magnificent</span>
+          <br/>
+          The Org Mode app we needed so much!
+
+Indeed, the interface is plain and it is so easy to use. Moreover, the app supports a rich set of Org Mode features, it is magnificent!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">nielsk</span> <span style="font-size: small;">24/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Great org-mode-client</span>
+          <br/>
+          Great org-mode-client that works better than beorg for notes. And it works together with WorkingCopy, so that I can sync my org-files with git. The developer is also very responsive and listens to his users.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">lycopodiopsida</span> <span style="font-size: small;">23/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">A different take on org tables editing!</span>
+          <br/>
+          Plain org is an org files editor, allowing to edit org tables, view images and so on. Also, the UX is quite good. I hope that one day the agenda functionality will also be added, but it is also useful as it is now.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Berengar I</span> <span style="font-size: small;">22/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ie/app/id1578965002">Ireland</a>
+          <br/>
+          <span style="font-weight: bold;">Kudos</span>
+          <br/>
+          Great app, best in class if you want something simple for note-taking for example.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
+          <br/>
+          <span style="font-weight: bold;">The pleasure of Org on iOS</span>
+          <br/>
+          I've gone through each and every org-mode supporting (and "supporting") app that works on iPhone. Native, PWA, you name it. They all fell short with either being too focused on tasks or too clunky to work with. PlainOrg is a pleasure to work with. Not overpacked w features, not lacking anything of substance. Love it. Thanks a bunch for all the efforts u/xenodium!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">03/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
+          <br/>
+          <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
+          <br/>
+          Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">foobar'ed</span> <span style="font-size: small;">21/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">I want to support this project</span>
+          <br/>
+          Great app. Great Philosphy.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">jasonmj2</span> <span style="font-size: small;">11/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Clean, productive, task management</span>
+          <br/>
+          Good software gets out of your way and provides clean, clear pathways to accomplish your goals. Plain org does exactly that for task management. It also happens to be compatible with org-mode, which makes it especially useful for Emacs users. Regardless of your org-mode experience level, Plain org presents you with an elegant interface for managing your task list along with the core features org-mode is revered for (statuses, nested tasks, tags, and more).
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">24/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">great app! talented & responsive developer.</span>
+          <br/>
+          an excellent app. as elegant as it is pragmatic. very useful. increasing in power with each release. i could easily imagine someone with no experience with emacs using this app, deciding learning to use org-mode on their laptop and a few months later wondering how they used to live without it. kind of like what happened with me.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">19/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">gorgeous implementation of org-mode on iOS</span>
+          <br/>
+          This is a gorgeous implementation of org-mode on iOS. It is rather spartan in functionality and options, which may be a draw for long-time Emacs users used to customizing everything under the sun, but makes org-mode more accessible and user-friendly for everyone else. Even I, the world's best Emacs user, very much appreciate the elegance and cleanness of the interface, and all of the features that the developer chose to implement work really well. I am also impressed by how closely the developer listens to feedback and how quickly changes are implemented. Kudos!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">14/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Text based task management</span>
+          <br/>
+          Recently purchased on a whim as I’ve been looking for a task management solution where I could make heavy use of text but still find it usable and easy to interface with on a phone. It fits the bill so far and I love how responsive the developer is and there commitment to improve it. Looking forward to seeing this app grow/mature.
+        </div>
+        <br/>
+        <div>
+          ★★★★☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">vrinek</span> <span style="font-size: small;">14/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">I love the streamlined design</span>
+          <br/>
+          I’m following GTD on org files and Plain Org is the best app I’ve found for capturing. And it can sync with anything that exposes a files API (eg my NextCloud).
+
+Once tags filtering is implemented, I’ll be able to use it for much more of my GTD workflow.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">FairlyTony</span> <span style="font-size: small;">03/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">An excellent mobile Org companion</span>
+          <br/>
+          I’ve been very satisfied with the combination of Plain Org and Working Copy for sync. Plain Org is fast and responsive, making it easy to check my notes when afk, or jot down a TODO while it’s on my mind.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">27/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Excellent app for editing Org-mode files</span>
+          <br/>
+          I’ve been testing this app for a few months now, and have been extremely impressed with how much the developer has worked to quickly add new features. It has the best UI for working with Org-mode agenda files that I’ve seen outside of Emacs itself. As soon as I saw that it was available on the App Store, I deleted my test versions and gladly paid for it. I’m grateful for the opportunity to send $8.99 to someone who has worked extremely hard to produce something I’ve needed for years.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Zucosane</span> <span style="font-size: small;">23/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Beautifully implemented Org Mode app</span>
+          <br/>
+          The app is gorgeous and responsive, exactly what I need to interact with my org files on mobile. The developer is great and is consistently implementing new features, I’m always looking forward to updates.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">14/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">The best for Org-mode on iOS</span>
+          <br/>
+          I've been using Org-mode for more than a decade and I've tried all kinds of other iOS apps in an attempt to make my Org files accessible on my iPhone / iPad. This is the first app that does this beautifully and in a way that feels intuitive. The developer is very friendly, responsive, and quick to implement fixes and I look forward to new releases!
+        </div>
+        <br/>
 #+end_example
