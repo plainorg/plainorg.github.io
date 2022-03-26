@@ -282,6 +282,30 @@ The beautiful interface is incentive enough to start using org mode I think, if 
         <div>
           ★★★★★
           <br/>
+          <span style="font-size: small; font-weight: bold;">SB sitting on bech</span> <span style="font-size: small;">15/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ca/app/id1578965002">Canada</a>
+          <br/>
+          <span style="font-weight: bold;">Simple but powerful</span>
+          <br/>
+          One of my favorite and most useful app on this store. It probably still needs some features but it does an important job in a simple good way.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">jingmila</span> <span style="font-size: small;">01/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/cn/app/id1578965002">China</a>
+          <br/>
+          <span style="font-weight: bold;">代码高亮什么时候有啊</span>
+          <br/>
+          代码高亮什么时候有啊
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
           <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
@@ -362,6 +386,18 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
+          <span style="font-size: small; font-weight: bold;">azmelanar</span> <span style="font-size: small;">10/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
+          <br/>
+          <span style="font-weight: bold;">awesome</span>
+          <br/>
+          awesome! great app
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
           <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
@@ -374,13 +410,49 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">03/01/22</span>
+          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">13/02/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
           <br/>
           <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
           <br/>
           Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Дощик</span> <span style="font-size: small;">04/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ua/app/id1578965002">Ukraine</a>
+          <br/>
+          <span style="font-weight: bold;">Best iOS app for org mode</span>
+          <br/>
+          First iOS application that is good for editing and READING org mode files. Developer is very helpful and already implemented so many feature requests I've sent that I simply run out of requests. Worth every cent.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Gfiz</span> <span style="font-size: small;">15/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Loving it!</span>
+          <br/>
+          This is my go-to for working with org files on my iOS devices. Thank you for building it!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">comfrey427</span> <span style="font-size: small;">14/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Nice</span>
+          <br/>
+          Keep up the great work
         </div>
         <br/>
         <div>
