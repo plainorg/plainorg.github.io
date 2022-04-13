@@ -262,7 +262,19 @@
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">23/12/21</span>
+          <span style="font-size: small; font-weight: bold;">Joe Pepperone</span> <span style="font-size: small;">31/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
+          <br/>
+          <span style="font-weight: bold;">Lovely</span>
+          <br/>
+          Great for quick edits to org files!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">24/12/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
           <br/>
@@ -282,7 +294,7 @@ The beautiful interface is incentive enough to start using org mode I think, if 
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">SB sitting on bech</span> <span style="font-size: small;">15/02/22</span>
+          <span style="font-size: small; font-weight: bold;">SB sitting on bech</span> <span style="font-size: small;">16/02/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ca/app/id1578965002">Canada</a>
           <br/>
@@ -306,7 +318,7 @@ The beautiful interface is incentive enough to start using org mode I think, if 
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
+          <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">18/01/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
           <br/>
@@ -374,7 +386,7 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Berengar I</span> <span style="font-size: small;">22/12/21</span>
+          <span style="font-size: small; font-weight: bold;">Berengar I</span> <span style="font-size: small;">23/12/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ie/app/id1578965002">Ireland</a>
           <br/>
@@ -398,7 +410,7 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
+          <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">14/01/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
           <br/>
@@ -410,13 +422,37 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">13/02/22</span>
+          <span style="font-size: small; font-weight: bold;">ia_androsov</span> <span style="font-size: small;">04/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ru/app/id1578965002">Russia</a>
+          <br/>
+          <span style="font-weight: bold;">Request</span>
+          <br/>
+          Please add the ability to hide the top panel of the iPhone (fullscreen)
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">14/02/22</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
           <br/>
           <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
           <br/>
           Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">monotux</span> <span style="font-size: small;">30/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/se/app/id1578965002">Sweden</a>
+          <br/>
+          <span style="font-weight: bold;">Äntligen orgmode i mobilen!</span>
+          <br/>
+          Helt fantastiskt att äntligen ha orgmode i telefonen! Går även utmärkt att använda på datorn parallellt, vilket gör det hela ännu bättre.
         </div>
         <br/>
         <div>
@@ -429,6 +465,48 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
           <span style="font-weight: bold;">Best iOS app for org mode</span>
           <br/>
           First iOS application that is good for editing and READING org mode files. Developer is very helpful and already implemented so many feature requests I've sent that I simply run out of requests. Worth every cent.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">鐘雲龍</span> <span style="font-size: small;">05/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Improving</span>
+          <br/>
+          App is improving all the time. Keep it up!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">lhindir</span> <span style="font-size: small;">04/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">A breath of fresh air</span>
+          <br/>
+          Plain Org is the first time I’ve been genuinely excited about any iOS software in a while. The commitment to an iOS-native feel is greatly appreciated, and the developer has been pretty successful in sticking to it despite the complexity inherent to Org. Keeping to best practices also makes for a strong focus on reading and writing Org rather than having to manage externalities such as file backend implementations. It keeps the app small and free of unnecessary feature duplication. Combined with Working Copy, it’s an unmatched task management experience on iOS, and iCloud works too if you’re not much of a Git guru.
+
+The developer is very active on the app’s community page and is frequently testing new features. He’s also responded to every one of my emails. It won’t be long before I uninstall Beorg, I think 🤫.
+
+Worth every penny, highly recommend.
+
+Tiny request: it’s time for a proper settings screen. The context menu trees are getting a bit disorienting :)
+        </div>
+        <br/>
+        <div>
+          ★☆☆☆☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Dublinus</span> <span style="font-size: small;">28/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">I lost work to this</span>
+          <br/>
+          If you type something in and close the keyboard your text disappears. I lost work I spent time on because of this. The app would be nice if it didn't do that but that makes it less than useless for me.
         </div>
         <br/>
         <div>
@@ -482,7 +560,7 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">24/12/21</span>
+          <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">25/12/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
@@ -494,7 +572,7 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">19/12/21</span>
+          <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">20/12/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
@@ -506,7 +584,7 @@ Indeed, the interface is plain and it is so easy to use. Moreover, the app suppo
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">14/12/21</span>
+          <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">15/12/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
@@ -544,7 +622,7 @@ Once tags filtering is implemented, I’ll be able to use it for much more of my
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">27/11/21</span>
+          <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">28/11/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
@@ -568,7 +646,7 @@ Once tags filtering is implemented, I’ll be able to use it for much more of my
         <div>
           ★★★★★
           <br/>
-          <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">14/11/21</span>
+          <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">15/11/21</span>
           <br/>
           <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
