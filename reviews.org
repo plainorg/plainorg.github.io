@@ -259,424 +259,555 @@
 
 #+RESULTS:
 #+begin_example
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">23/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
-            <br/>
-            <span style="font-weight: bold;">An essential and beautiful app for org mode on the go</span>
-            <br/>
-            This app has been a game-changer for me. I use it to write and edit todo lists, notes and journal when I’m away from my computer and the app seamlessly syncs these with files and backups through the cloud (I use iCloud). It is also fantastic for inserting links to items (like webpages, snippets of code) on my iPhone.
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Irrawaddy1</span> <span style="font-size: small;">23/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/au/app/id1578965002">Australia</a>
+          <br/>
+          <span style="font-weight: bold;">An essential and beautiful app for org mode on the go</span>
+          <br/>
+          This app has been a game-changer for me. I use it to write and edit todo lists, notes and journal when I’m away from my computer and the app seamlessly syncs these with files and backups through the cloud (I use iCloud). It is also fantastic for inserting links to items (like webpages, snippets of code) on my iPhone.
 
-  I use emacs org mode for almost everything I do: keeping todo lists, plans, notes from meetings or research ideas, drafting papers, preparing presentations. (I transitioned to org mode after trying many other “productivity” programs, because none of them gave me the interface I needed between all of these functions.)
+I use emacs org mode for almost everything I do: keeping todo lists, plans, notes from meetings or research ideas, drafting papers, preparing presentations. (I transitioned to org mode after trying many other “productivity” programs, because none of them gave me the interface I needed between all of these functions.)
 
-  Until Plainorg came along, I used org mode and accessed my org files only when I was sitting in front of a computer. None of the other mobile options gave me an easy sync with the cloud. (Maybe I’m just not tech-savvy enough!) I think I was also turned off by the other app’s clunky interfaces on an iPhone. This meant I carried around paper notebooks to jot down items, or ideas, as they occurred to me when away from a laptop or desktop. But, this was not ideal – I missed nuances: todo actions that would pop up when I’m writing notes, or detailed URLs (when I was too lazy to collect them under some easy-to-find-again bookmark).
+Until Plainorg came along, I used org mode and accessed my org files only when I was sitting in front of a computer. None of the other mobile options gave me an easy sync with the cloud. (Maybe I’m just not tech-savvy enough!) I think I was also turned off by the other app’s clunky interfaces on an iPhone. This meant I carried around paper notebooks to jot down items, or ideas, as they occurred to me when away from a laptop or desktop. But, this was not ideal – I missed nuances: todo actions that would pop up when I’m writing notes, or detailed URLs (when I was too lazy to collect them under some easy-to-find-again bookmark).
 
-  Plainorg is the first app I have found which works on an iPhone and it works brilliantly! I've reached out to the developer on a few small issues and he was very quick to respond. I recommend it very highly to anyone who is using org mode.
+Plainorg is the first app I have found which works on an iPhone and it works brilliantly! I've reached out to the developer on a few small issues and he was very quick to respond. I recommend it very highly to anyone who is using org mode.
 
-  The beautiful interface is incentive enough to start using org mode I think, if you’re not using it already.
-          </div>
+The beautiful interface is incentive enough to start using org mode I think, if you’re not using it already.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">SB sitting on bech</span> <span style="font-size: small;">15/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ca/app/id1578965002">Canada</a>
-            <br/>
-            <span style="font-weight: bold;">Simple but powerful</span>
-            <br/>
-            One of my favorite and most useful app on this store. It probably still needs some features but it does an important job in a simple good way.
-          </div>
+          <span style="font-size: small; font-weight: bold;">SB sitting on bech</span> <span style="font-size: small;">15/02/22</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">jingmila</span> <span style="font-size: small;">01/03/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/cn/app/id1578965002">China</a>
-            <br/>
-            <span style="font-weight: bold;">代码高亮什么时候有啊</span>
-            <br/>
-            代码高亮什么时候有啊
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ca/app/id1578965002">Canada</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">publiusnaso</span> <span style="font-size: small;">22/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Great tool</span>
-            <br/>
-            This is the implementation of org-mode for iOS I always wanted. It works, has a simple but functional interface and helps me keeping my org-files in check on my smart phone.
-          </div>
+          <span style="font-weight: bold;">Simple but powerful</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">A pretty good org-mode App!</span>
-            <br/>
-            Compare to another org-mode Apps for iOS-device, it supports many unique features like displaying inline images or rendering table perfectly even with full-width characters(like Chinese characters).
-  And the most important: the author is very responsive so once you have any idea or advice, just talk to him!
-          </div>
+          One of my favorite and most useful app on this store. It probably still needs some features but it does an important job in a simple good way.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">eeee2018</span> <span style="font-size: small;">01/01/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Great Org App</span>
-            <br/>
-            Thank you for providing a plain text organizer. The author is very responsive and improves the app continually.
+          <span style="font-size: small; font-weight: bold;">jingmila</span> <span style="font-size: small;">01/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/cn/app/id1578965002">China</a>
+          <br/>
+          <span style="font-weight: bold;">代码高亮什么时候有啊</span>
+          <br/>
+          代码高亮什么时候有啊
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">publiusnaso</span> <span style="font-size: small;">22/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Great tool</span>
+          <br/>
+          This is the implementation of org-mode for iOS I always wanted. It works, has a simple but functional interface and helps me keeping my org-files in check on my smart phone.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">weissbai</span> <span style="font-size: small;">17/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">A pretty good org-mode App!</span>
+          <br/>
+          Compare to another org-mode Apps for iOS-device, it supports many unique features like displaying inline images or rendering table perfectly even with full-width characters(like Chinese characters).
+And the most important: the author is very responsive so once you have any idea or advice, just talk to him!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">eeee2018</span> <span style="font-size: small;">01/01/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Great Org App</span>
+          <br/>
+          Thank you for providing a plain text organizer. The author is very responsive and improves the app continually.
 
-   It provides a very good raw edit feature. Great for tasks.
-  You can check the developer website for details.
+ It provides a very good raw edit feature. Great for tasks.
+You can check the developer website for details.
 
-  Agenda feature is missing so far, but the developer is constantly adding features. We are all invited to ask. :) That is wonderful.
-          </div>
+Agenda feature is missing so far, but the developer is constantly adding features. We are all invited to ask. :) That is wonderful.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">mshkrebtan</span> <span style="font-size: small;">25/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Magnificent</span>
-            <br/>
-            The Org Mode app we needed so much!
+          <span style="font-size: small; font-weight: bold;">mshkrebtan</span> <span style="font-size: small;">25/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
+          <br/>
+          <span style="font-weight: bold;">Magnificent</span>
+          <br/>
+          The Org Mode app we needed so much!
 
-  Indeed, the interface is plain and it is so easy to use. Moreover, the app supports a rich set of Org Mode features, it is magnificent!
-          </div>
+Indeed, the interface is plain and it is so easy to use. Moreover, the app supports a rich set of Org Mode features, it is magnificent!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">nielsk</span> <span style="font-size: small;">24/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">Great org-mode-client</span>
-            <br/>
-            Great org-mode-client that works better than beorg for notes. And it works together with WorkingCopy, so that I can sync my org-files with git. The developer is also very responsive and listens to his users.
-          </div>
+          <span style="font-size: small; font-weight: bold;">nielsk</span> <span style="font-size: small;">24/11/21</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">lycopodiopsida</span> <span style="font-size: small;">23/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
-            <br/>
-            <span style="font-weight: bold;">A different take on org tables editing!</span>
-            <br/>
-            Plain org is an org files editor, allowing to edit org tables, view images and so on. Also, the UX is quite good. I hope that one day the agenda functionality will also be added, but it is also useful as it is now.
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Berengar I</span> <span style="font-size: small;">22/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ie/app/id1578965002">Ireland</a>
-            <br/>
-            <span style="font-weight: bold;">Kudos</span>
-            <br/>
-            Great app, best in class if you want something simple for note-taking for example.
-          </div>
+          <span style="font-weight: bold;">Great org-mode-client</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">azmelanar</span> <span style="font-size: small;">10/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
-            <br/>
-            <span style="font-weight: bold;">awesome</span>
-            <br/>
-            awesome! great app
-          </div>
+          Great org-mode-client that works better than beorg for notes. And it works together with WorkingCopy, so that I can sync my org-files with git. The developer is also very responsive and listens to his users.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
-            <br/>
-            <span style="font-weight: bold;">The pleasure of Org on iOS</span>
-            <br/>
-            I've gone through each and every org-mode supporting (and "supporting") app that works on iPhone. Native, PWA, you name it. They all fell short with either being too focused on tasks or too clunky to work with. PlainOrg is a pleasure to work with. Not overpacked w features, not lacking anything of substance. Love it. Thanks a bunch for all the efforts u/xenodium!
-          </div>
+          <span style="font-size: small; font-weight: bold;">lycopodiopsida</span> <span style="font-size: small;">23/11/21</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">ia_androsov</span> <span style="font-size: small;">03/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ru/app/id1578965002">Russia</a>
-            <br/>
-            <span style="font-weight: bold;">Request</span>
-            <br/>
-            Please add the ability to hide the top panel of the iPhone (fullscreen)
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/de/app/id1578965002">Germany</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">13/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
-            <br/>
-            <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
-            <br/>
-            Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
-          </div>
+          <span style="font-weight: bold;">A different take on org tables editing!</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">monotux</span> <span style="font-size: small;">29/03/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/se/app/id1578965002">Sweden</a>
-            <br/>
-            <span style="font-weight: bold;">Äntligen orgmode i mobilen!</span>
-            <br/>
-            Helt fantastiskt att äntligen ha orgmode i telefonen! Går även utmärkt att använda på datorn parallellt, vilket gör det hela ännu bättre.
-          </div>
+          Plain org is an org files editor, allowing to edit org tables, view images and so on. Also, the UX is quite good. I hope that one day the agenda functionality will also be added, but it is also useful as it is now.
+        </div>
+        <br/>
+        <div>
+          ★★★☆☆
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Дощик</span> <span style="font-size: small;">04/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ua/app/id1578965002">Ukraine</a>
-            <br/>
-            <span style="font-weight: bold;">Best iOS app for org mode</span>
-            <br/>
-            First iOS application that is good for editing and READING org mode files. Developer is very helpful and already implemented so many feature requests I've sent that I simply run out of requests. Worth every cent.
-          </div>
+          <span style="font-size: small; font-weight: bold;">Dooley2800</span> <span style="font-size: small;">24/06/22</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">b0v1n</span> <span style="font-size: small;">22/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Fantastic</span>
-            <br/>
-            Perfect app. I pair it with Working Copy and keep my Org notes in a GitHub private repo and this app works flawlessly. Love it!
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/gb/app/id1578965002">Great Britain</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">EarlCecil</span> <span style="font-size: small;">21/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Finally</span>
-            <br/>
-            Finally an org which I will use and makes sync just work with little overhead.
-          </div>
+          <span style="font-weight: bold;">A fine editor</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">鐘雲龍</span> <span style="font-size: small;">05/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Improving</span>
-            <br/>
-            App is improving all the time. Keep it up!
-          </div>
+          It does Org mode editing really well on a single file. However relying on the Files app to handle browsing and searching is a really poor experience. It finds nothing, even files by name. With a large collection this app doesn’t really work (at least with working copy).
+        </div>
+        <br/>
+        <div>
+          ★★★★★
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">lhindir</span> <span style="font-size: small;">03/04/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">A breath of fresh air</span>
-            <br/>
-            Plain Org is the first time I’ve been genuinely excited about any iOS software in a while. The commitment to an iOS-native feel is greatly appreciated, and the developer has been pretty successful in sticking to it despite the complexity inherent to Org. Keeping to best practices also makes for a strong focus on reading and writing Org rather than having to manage externalities such as file backend implementations. It keeps the app small and free of unnecessary feature duplication. Combined with Working Copy, it’s an unmatched task management experience on iOS, and iCloud works too if you’re not much of a Git guru.
+          <span style="font-size: small; font-weight: bold;">Jason Braganza</span> <span style="font-size: small;">15/09/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/in/app/id1578965002">India</a>
+          <br/>
+          <span style="font-weight: bold;">Absolutely wonderful companion app to Org Mode</span>
+          <br/>
+          If what you want is something to complement your Org Mode needs, then this is the app you want
 
-  The developer is very active on the app’s community page and is frequently testing new features. He’s also responded to every one of my emails. It won’t be long before I uninstall Beorg, I think 🤫.
+Simple yet pretty!
+        </div>
+        <br/>
+        <div>
+          ★★★☆☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">__sptr__</span> <span style="font-size: small;">21/06/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ie/app/id1578965002">Ireland</a>
+          <br/>
+          <span style="font-weight: bold;">Bugs + uncomfortable ui</span>
+          <br/>
+          1. Dropbox files opening doesn't work sometimes
+2. Adding subitem isn't working
+3. Reordering expands all suites so it's very difficult to move items to the end of the file
+4. No syntax highlight in text edit mode
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Constpetrov</span> <span style="font-size: small;">30/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/nl/app/id1578965002">Netherlands</a>
+          <br/>
+          <span style="font-weight: bold;">Easy way to get your lists on the go</span>
+          <br/>
+          This app provides a possibility to create and view org mode lists while away from your pc.
+It may not have all the org related features now, but it moves fast and the developer is very approachable.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">manuelgalup</span> <span style="font-size: small;">14/05/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pe/app/id1578965002">Peru</a>
+          <br/>
+          <span style="font-weight: bold;">Excellent</span>
+          <br/>
+          Excellent org mode app. Just what I was looking for
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">azmelanar</span> <span style="font-size: small;">10/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
+          <br/>
+          <span style="font-weight: bold;">awesome</span>
+          <br/>
+          awesome! great app
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Peel the Kid</span> <span style="font-size: small;">13/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/pl/app/id1578965002">Poland</a>
+          <br/>
+          <span style="font-weight: bold;">The pleasure of Org on iOS</span>
+          <br/>
+          I've gone through each and every org-mode supporting (and "supporting") app that works on iPhone. Native, PWA, you name it. They all fell short with either being too focused on tasks or too clunky to work with. PlainOrg is a pleasure to work with. Not overpacked w features, not lacking anything of substance. Love it. Thanks a bunch for all the efforts u/xenodium!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">ia_androsov</span> <span style="font-size: small;">03/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ru/app/id1578965002">Russia</a>
+          <br/>
+          <span style="font-weight: bold;">Request</span>
+          <br/>
+          Please add the ability to hide the top panel of the iPhone (fullscreen)
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Cnoceda</span> <span style="font-size: small;">20/08/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/es/app/id1578965002">Spain</a>
+          <br/>
+          <span style="font-weight: bold;">Lo mejor en iOS para ficheros Org</span>
+          <br/>
+          Puedo leer y editar los ficheros org sin problemas. Faltan cosas por pulir, pero de momento me permite meter en workflow el iPad sin problemas.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">monotux</span> <span style="font-size: small;">29/03/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/se/app/id1578965002">Sweden</a>
+          <br/>
+          <span style="font-weight: bold;">Äntligen orgmode i mobilen!</span>
+          <br/>
+          Helt fantastiskt att äntligen ha orgmode i telefonen! Går även utmärkt att använda på datorn parallellt, vilket gör det hela ännu bättre.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Fi5herLi</span> <span style="font-size: small;">17/08/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/tw/app/id1578965002">Taiwan</a>
+          <br/>
+          <span style="font-weight: bold;">Agenda function plz</span>
+          <br/>
+          Like the title. I really need the org agenda function for this app.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Дощик</span> <span style="font-size: small;">13/05/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/ua/app/id1578965002">Ukraine</a>
+          <br/>
+          <span style="font-weight: bold;">Best iOS app for org mode</span>
+          <br/>
+          First iOS application that is good for editing and READING org mode files. Developer is very helpful and already implemented so many feature requests I've sent that I simply run out of requests. Worth every cent.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">congas69</span> <span style="font-size: small;">21/09/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Simple and functional</span>
+          <br/>
+          Perfect for taking your todo file on the road. Just what I need as someone who prefers to do most of the work from a PC and carry the results in my pocket. Dropbox integration works well.
+        </div>
+        <br/>
+        <div>
+          ★★★☆☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Carl in Oakland</span> <span style="font-size: small;">07/08/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Nice but needs work</span>
+          <br/>
+          - Editing on iPad Pro doesn’t work
+- Can't copy and paste text from
+other sources.
+- Needs a tutorial
+- Inconsistent interface. (Edit and Add
+functions need to indicate WHAT
+they're editing or adding)
+- Good start, but not intuitive for an
+org mode novice
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">/MyTwoCents</span> <span style="font-size: small;">16/07/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Better than Beorg</span>
+          <br/>
+          For my purposes, this is much better than the competitors in the “org-mode” editor space.  I use NextCloud to store my files, and since the NextCloud app on iPad/iPhone interfaces with the native Files app, I can access all my org files from NextCloud in this app!! So happy to have found this!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">nnnosh</span> <span style="font-size: small;">19/06/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Fantastic app!</span>
+          <br/>
+          This is great. Can't wait to use it more.
 
-  Worth every penny, highly recommend.
+I'm incredibly excited for Agenda mode!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">The lilt train who could</span> <span style="font-size: small;">06/06/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">This is exactly what I needed!</span>
+          <br/>
+          I have started moving away from Apple notes and using org mode for everything again. But I needed a way to edit them from my phone. This works perfectly. Although having git tracking would be a cool future feature. Yes I know I am spoiled by magit.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">鐘雲龍</span> <span style="font-size: small;">05/06/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Continuously Improving</span>
+          <br/>
+          App is improving all the time. Keep it up!! It will soon be truly great.
+        </div>
+        <br/>
+        <div>
+          ★★☆☆☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">lesliesrussell</span> <span style="font-size: small;">25/05/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">No Dropbox?</span>
+          <br/>
+          No Dropbox connectivity? None that I can finger out. Not useful for my workflow
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">b0v1n</span> <span style="font-size: small;">22/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Fantastic</span>
+          <br/>
+          Perfect app. I pair it with Working Copy and keep my Org notes in a GitHub private repo and this app works flawlessly. Love it!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">EarlCecil</span> <span style="font-size: small;">21/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Finally</span>
+          <br/>
+          Finally an org which I will use and makes sync just work with little overhead.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">lhindir</span> <span style="font-size: small;">03/04/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">A breath of fresh air</span>
+          <br/>
+          Plain Org is the first time I’ve been genuinely excited about any iOS software in a while. The commitment to an iOS-native feel is greatly appreciated, and the developer has been pretty successful in sticking to it despite the complexity inherent to Org. Keeping to best practices also makes for a strong focus on reading and writing Org rather than having to manage externalities such as file backend implementations. It keeps the app small and free of unnecessary feature duplication. Combined with Working Copy, it’s an unmatched task management experience on iOS, and iCloud works too if you’re not much of a Git guru.
 
-  Tiny request: it’s time for a proper settings screen. The context menu trees are getting a bit disorienting :)
-          </div>
-          <br/>
-          <div>
-            ★☆☆☆☆
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Dublinus</span> <span style="font-size: small;">27/03/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">I lost work to this</span>
-            <br/>
-            If you type something in and close the keyboard your text disappears. I lost work I spent time on because of this. The app would be nice if it didn't do that but that makes it less than useless for me.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Gfiz</span> <span style="font-size: small;">15/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Loving it!</span>
-            <br/>
-            This is my go-to for working with org files on my iOS devices. Thank you for building it!
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">comfrey427</span> <span style="font-size: small;">14/02/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Nice</span>
-            <br/>
-            Keep up the great work
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">foobar'ed</span> <span style="font-size: small;">21/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">I want to support this project</span>
-            <br/>
-            Great app. Great Philosphy.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">jasonmj2</span> <span style="font-size: small;">11/01/22</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Clean, productive, task management</span>
-            <br/>
-            Good software gets out of your way and provides clean, clear pathways to accomplish your goals. Plain org does exactly that for task management. It also happens to be compatible with org-mode, which makes it especially useful for Emacs users. Regardless of your org-mode experience level, Plain org presents you with an elegant interface for managing your task list along with the core features org-mode is revered for (statuses, nested tasks, tags, and more).
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">24/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">great app! talented & responsive developer.</span>
-            <br/>
-            an excellent app. as elegant as it is pragmatic. very useful. increasing in power with each release. i could easily imagine someone with no experience with emacs using this app, deciding learning to use org-mode on their laptop and a few months later wondering how they used to live without it. kind of like what happened with me.
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">19/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">gorgeous implementation of org-mode on iOS</span>
-            <br/>
-            This is a gorgeous implementation of org-mode on iOS. It is rather spartan in functionality and options, which may be a draw for long-time Emacs users used to customizing everything under the sun, but makes org-mode more accessible and user-friendly for everyone else. Even I, the world's best Emacs user, very much appreciate the elegance and cleanness of the interface, and all of the features that the developer chose to implement work really well. I am also impressed by how closely the developer listens to feedback and how quickly changes are implemented. Kudos!
-          </div>
-          <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">14/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Text based task management</span>
-            <br/>
-            Recently purchased on a whim as I’ve been looking for a task management solution where I could make heavy use of text but still find it usable and easy to interface with on a phone. It fits the bill so far and I love how responsive the developer is and there commitment to improve it. Looking forward to seeing this app grow/mature.
-          </div>
-          <br/>
-          <div>
-            ★★★★☆
-            <br/>
-            <span style="font-size: small; font-weight: bold;">vrinek</span> <span style="font-size: small;">14/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">I love the streamlined design</span>
-            <br/>
-            I’m following GTD on org files and Plain Org is the best app I’ve found for capturing. And it can sync with anything that exposes a files API (eg my NextCloud).
+The developer is very active on the app’s community page and is frequently testing new features. He’s also responded to every one of my emails. It won’t be long before I uninstall Beorg, I think 🤫.
 
-  Once tags filtering is implemented, I’ll be able to use it for much more of my GTD workflow.
-          </div>
+Worth every penny, highly recommend.
+
+Tiny request: it’s time for a proper settings screen. The context menu trees are getting a bit disorienting :)
+        </div>
+        <br/>
+        <div>
+          ★☆☆☆☆
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">FairlyTony</span> <span style="font-size: small;">03/12/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">An excellent mobile Org companion</span>
-            <br/>
-            I’ve been very satisfied with the combination of Plain Org and Working Copy for sync. Plain Org is fast and responsive, making it easy to check my notes when afk, or jot down a TODO while it’s on my mind.
-          </div>
+          <span style="font-size: small; font-weight: bold;">Dublinus</span> <span style="font-size: small;">27/03/22</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">27/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Excellent app for editing Org-mode files</span>
-            <br/>
-            I’ve been testing this app for a few months now, and have been extremely impressed with how much the developer has worked to quickly add new features. It has the best UI for working with Org-mode agenda files that I’ve seen outside of Emacs itself. As soon as I saw that it was available on the App Store, I deleted my test versions and gladly paid for it. I’m grateful for the opportunity to send $8.99 to someone who has worked extremely hard to produce something I’ve needed for years.
-          </div>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Zucosane</span> <span style="font-size: small;">23/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">Beautifully implemented Org Mode app</span>
-            <br/>
-            The app is gorgeous and responsive, exactly what I need to interact with my org files on mobile. The developer is great and is consistently implementing new features, I’m always looking forward to updates.
-          </div>
+          <span style="font-weight: bold;">I lost work to this</span>
           <br/>
-          <div>
-            ★★★★★
-            <br/>
-            <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">14/11/21</span>
-            <br/>
-            <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
-            <br/>
-            <span style="font-weight: bold;">The best for Org-mode on iOS</span>
-            <br/>
-            I've been using Org-mode for more than a decade and I've tried all kinds of other iOS apps in an attempt to make my Org files accessible on my iPhone / iPad. This is the first app that does this beautifully and in a way that feels intuitive. The developer is very friendly, responsive, and quick to implement fixes and I look forward to new releases!
-          </div>
+          If you type something in and close the keyboard your text disappears. I lost work I spent time on because of this. The app would be nice if it didn't do that but that makes it less than useless for me.
           <br/>
+          <br/>
+          <div style="margin-left: 40px">
+            <span style="font-size: small; font-weight: bold;">Developer Response</span> <span style="font-size: small;">29/03/22</span>
+            <br/>
+            Please get in touch ASAP "plainorg" + "@" + "xenodium.com" or use the feedback menu in the app. This sounds like a bug (I'll need steps to reproduce and fix). Most importantly, there are safeguards to recover local snapshots (if used soon).
+          </div>
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Gfiz</span> <span style="font-size: small;">15/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Loving it!</span>
+          <br/>
+          This is my go-to for working with org files on my iOS devices. Thank you for building it!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">comfrey427</span> <span style="font-size: small;">14/02/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Nice</span>
+          <br/>
+          Keep up the great work
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">jasonmj2</span> <span style="font-size: small;">11/01/22</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Clean, productive, task management</span>
+          <br/>
+          Good software gets out of your way and provides clean, clear pathways to accomplish your goals. Plain org does exactly that for task management. It also happens to be compatible with org-mode, which makes it especially useful for Emacs users. Regardless of your org-mode experience level, Plain org presents you with an elegant interface for managing your task list along with the core features org-mode is revered for (statuses, nested tasks, tags, and more).
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">kohl(ed)</span> <span style="font-size: small;">24/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">great app! talented & responsive developer.</span>
+          <br/>
+          an excellent app. as elegant as it is pragmatic. very useful. increasing in power with each release. i could easily imagine someone with no experience with emacs using this app, deciding learning to use org-mode on their laptop and a few months later wondering how they used to live without it. kind of like what happened with me.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">bytedude</span> <span style="font-size: small;">19/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">gorgeous implementation of org-mode on iOS</span>
+          <br/>
+          This is a gorgeous implementation of org-mode on iOS. It is rather spartan in functionality and options, which may be a draw for long-time Emacs users used to customizing everything under the sun, but makes org-mode more accessible and user-friendly for everyone else. Even I, the world's best Emacs user, very much appreciate the elegance and cleanness of the interface, and all of the features that the developer chose to implement work really well. I am also impressed by how closely the developer listens to feedback and how quickly changes are implemented. Kudos!
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">mbjonesan</span> <span style="font-size: small;">14/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Text based task management</span>
+          <br/>
+          Recently purchased on a whim as I’ve been looking for a task management solution where I could make heavy use of text but still find it usable and easy to interface with on a phone. It fits the bill so far and I love how responsive the developer is and there commitment to improve it. Looking forward to seeing this app grow/mature.
+        </div>
+        <br/>
+        <div>
+          ★★★★☆
+          <br/>
+          <span style="font-size: small; font-weight: bold;">vrinek</span> <span style="font-size: small;">14/12/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">I love the streamlined design</span>
+          <br/>
+          I’m following GTD on org files and Plain Org is the best app I’ve found for capturing. And it can sync with anything that exposes a files API (eg my NextCloud).
+
+Once tags filtering is implemented, I’ll be able to use it for much more of my GTD workflow.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">rlridenour</span> <span style="font-size: small;">27/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Excellent app for editing Org-mode files</span>
+          <br/>
+          I’ve been testing this app for a few months now, and have been extremely impressed with how much the developer has worked to quickly add new features. It has the best UI for working with Org-mode agenda files that I’ve seen outside of Emacs itself. As soon as I saw that it was available on the App Store, I deleted my test versions and gladly paid for it. I’m grateful for the opportunity to send $8.99 to someone who has worked extremely hard to produce something I’ve needed for years.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Zucosane</span> <span style="font-size: small;">23/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">Beautifully implemented Org Mode app</span>
+          <br/>
+          The app is gorgeous and responsive, exactly what I need to interact with my org files on mobile. The developer is great and is consistently implementing new features, I’m always looking forward to updates.
+        </div>
+        <br/>
+        <div>
+          ★★★★★
+          <br/>
+          <span style="font-size: small; font-weight: bold;">Raam Dev</span> <span style="font-size: small;">14/11/21</span>
+          <br/>
+          <a style="font-size: small; font-weight: bold;" href="https://apps.apple.com/us/app/id1578965002">United States</a>
+          <br/>
+          <span style="font-weight: bold;">The best for Org-mode on iOS</span>
+          <br/>
+          I've been using Org-mode for more than a decade and I've tried all kinds of other iOS apps in an attempt to make my Org files accessible on my iPhone / iPad. This is the first app that does this beautifully and in a way that feels intuitive. The developer is very friendly, responsive, and quick to implement fixes and I look forward to new releases!
+        </div>
+        <br/>
 #+end_example
